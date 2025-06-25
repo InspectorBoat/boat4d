@@ -1,0 +1,28 @@
+.{
+    .name = .boat4d,
+    .version = "0.0.0",
+    .fingerprint = 0xce0be93253bbc287, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.0-dev.769+4d7980645",
+    .dependencies = .{
+        .mach_glfw = .{
+            .path = "../mach-glfw",
+        },
+        .zgl = .{
+            .url = "git+https://github.com/ziglibs/zgl#f616514733b81e5b00cc2d839c83c8e529ff5c4f",
+            .hash = "zgl-1.1.0-p_NpABvCCgCJPOcp11QHacU02b1rVdXkWR9Xvjv68y9R",
+        },
+        .zalgebra = .{
+            .url = "git+https://github.com/kooparse/zalgebra#412c3e1cddcf6b8494a6c008dd152c6e0ec5e846",
+            .hash = "zalgebra-0.0.0-aaiVSk5nAQA4CIV_flm1iIpWiSrVcxggA9y_aaa-TtdR",
+        },
+        .zigimg = .{
+            .url = "git+https://github.com/zigimg/zigimg#6b9ddc1e94cd80183a2d4a8403cc60c8d2ef0d2a",
+            .hash = "zigimg-0.1.0-8_eo2gimEgBDuZcXm0MsbNDjkzRDk-lWSPrUa_bLf0IC",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
