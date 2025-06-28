@@ -7,7 +7,7 @@ pub fn build(b: *std.Build) void {
     const mach_glfw = b.dependency("mach_glfw", .{
         .target = target,
         .optimize = optimize,
-    }).module("mach-glfw");
+    }).module("mach_glfw");
     const zgl = b.dependency("zgl", .{
         .target = target,
         .optimize = optimize,

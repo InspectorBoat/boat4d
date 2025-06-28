@@ -5,7 +5,8 @@
     .minimum_zig_version = "0.15.0-dev.769+4d7980645",
     .dependencies = .{
         .mach_glfw = .{
-            .path = "../mach-glfw",
+            .url = "git+https://github.com/InspectorBoat/mach_glfw#2d4bf3d6cb7313e6ae6135993c8b19502df9a333",
+            .hash = "mach_glfw-0.2.0-HMuMvVY9BQDBSThGzqqFNToPPSIH6ce-49ohhKnvQupO",
         },
         .zgl = .{
             .url = "git+https://github.com/ziglibs/zgl#f616514733b81e5b00cc2d839c83c8e529ff5c4f",
